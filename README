@@ -23,11 +23,11 @@ git clone git@github.com:Oddiseo/odd-dotfiles.git
 
 ### 2. Crear Enlaces Simbólicos (Symlinks)
 
-# Crear carpeta si no existe
+Crear carpeta si no existe
 `mkdir -p ~/.config/sway`
 
-# (Opcional) Respaldo la config original si existe
+(Opcional) Respaldo la config original si existe
 `mv ~/.config/sway/config ~/.config/sway/config.backup`
 
-# Creo el enlace
+Crear el enlace
 `ln -s ~/dotfiles/sway_config ~/.config/sway/config`
